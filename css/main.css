@@ -1,0 +1,48 @@
+.logo {
+  height: 150px;
+  width: 150px;
+  margin: 15px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hamburger-icon {
+  border: none;
+  background: none;
+}
+
+.hamburger-icon rect {
+  fill: grey;
+}
+
+.nav {
+  display: none;
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+  .nav {
+    display: block;
+  }
+  .nav li {
+    display: inline;
+    margin: 5px;
+    font-size: 20px;
+  }
+  .nav a:hover {
+    color: palevioletred;
+  }
+  .hamburger-icon {
+    display: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */
