@@ -1,0 +1,30 @@
+.logo {
+  height: 57px;
+  width: 57px;
+  margin: 15px; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.hamburger-icon {
+  border: none;
+  background: white; }
+  .hamburger-icon rect {
+    fill: grey; }
+
+.nav {
+  display: none; }
+
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+  .nav {
+    display: block; }
+    .nav li {
+      display: inline;
+      margin: 5px;
+      font-size: 20px; }
+    .nav a:hover {
+      color: palevioletred; }
+  .hamburger-icon {
+    display: none; } }
